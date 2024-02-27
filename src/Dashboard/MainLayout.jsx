@@ -96,14 +96,14 @@ const Span16Font = styled.span`
 
 const MainLayout = () => {
 
-  let token = localStorage.getItem('token');
+//   let token = localStorage.getItem('token');
 
-  useEffect(() => {
-    if (!token) {
-      navigate('/')
-    }
+//   useEffect(() => {
+//     if (!token) {
+//       navigate('/')
+//     }
 
-  }, [token])
+//   }, [token])
 
 
     const [sidebarOpen, setSidebarOpen] = useState(true);
